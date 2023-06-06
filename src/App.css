@@ -2013,6 +2013,9 @@ footer h3 {
 .bottomHome p {
   font-size: 13px;
 }
+.top_bottomHome {
+   width: 80%;
+}
 .payment img {
   width: 47px;
   height: 29px;
