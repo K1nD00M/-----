@@ -323,7 +323,6 @@ header {
 
 .sectionResults {
   width: 100%;
-  height: 130vh;
   background: var(--backgroundLight);
   display: flex;
   flex-direction: column;
@@ -422,6 +421,8 @@ header {
     rgba(219, 190, 94, 1) 98%
   );
   border: none;
+
+  margin-bottom: 5%;
 }
 
 .sectionFounder {
@@ -558,7 +559,6 @@ header {
 
 .bottomHome {
   width: 100%;
-  height: 3000px;
   background: var(--backgroundLight);
   margin-top: 50px;
   display: flex;
@@ -1613,7 +1613,6 @@ footer h3 {
     width: 100%;
     display: flex;
     justify-content: center;
-    align-items: flex-start;
     flex-direction: column;
     font-size: 20px;
     margin: -18% 0 38% 0px;
@@ -1630,9 +1629,6 @@ footer h3 {
   }
   .sectionResults h2 {
     font-size: 30px;
-  }
-  .sectionResults {
-    height: 205vh;
   }
   .content_section_results {
     flex-wrap: nowrap;
@@ -1707,9 +1703,6 @@ footer h3 {
   .viewMoreSale {
     width: 100%;
   }
-  .bottomHome {
-    height: 4706px;
-  }
   .start_cont {
     width: 100%;
     flex-direction: column;
@@ -1772,9 +1765,6 @@ footer h3 {
     width: 100%;
     height: 80%;
     gap: 3rem;
-  }
-  .sectionResults {
-    height: 250vh;
   }
   .sectionResults h2 {
     font-size: 40px;
@@ -1862,7 +1852,7 @@ footer h3 {
     height: 65%;
   }
   header {
-    height: 135vh;
+    height: 100vh;
   }
   .left_header {
     gap: 0rem;
@@ -1876,7 +1866,6 @@ footer h3 {
     margin-top: 10%;
   }
   .sectionResults a {
-    margin-bottom: 5%;
   }
 }
 
@@ -1921,7 +1910,6 @@ footer h3 {
   }
   .left_header {
     width: 80%;
-    justify-content: flex-start;
   }
   .logo_top_header button {
     font-size: 12px;
@@ -1944,13 +1932,10 @@ footer h3 {
     padding: 0%;
   }
   .right_header {
-    width: 50%;
+    display: none;
   }
   .left_header p {
     font-size: 19px;
-  }
-  .bottomHome {
-    height: 830vh;
   }
   .blog {
     width: 85%;
@@ -2030,9 +2015,6 @@ footer h3 {
 }
 .bottomHome p {
   font-size: 13px;
-}
-.bottomHome {
-  height: 560vh;
 }
 .payment img {
   width: 47px;
